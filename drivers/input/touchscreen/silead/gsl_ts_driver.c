@@ -1779,7 +1779,7 @@ static int  gsl_ts_init(void)
 		fw_size =  ARRAY_SIZE(GSLX680_FW_PA02);
     }
 #endif
-		SCREEN_MAX_X =1280;
+		SCREEN_MAX_X =1200;
 		SCREEN_MAX_Y =1920;
 		//i2c_set_pull_strength(1, 2);
 		gsl_config_data_id = gsl_config_data_id_CHT;
